@@ -1,0 +1,6 @@
+1000 1000
+
+rfunc dr(n)
+    0 drawEllipse(400,450,600,550, 100  ,200 ,0) + drawCircle(500,500,50,0,100,200)+10
+    r drawCircle(500,500,50+r*10,0,100,200) + n + r
+func main() dr(20)

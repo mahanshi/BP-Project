@@ -1,0 +1,6 @@
+200 300
+
+rfunc dr(n)
+    0 drawLine(100,2,200,1, 0  ,0 ,0)
+    r drawLine(100-10*n,0,200,200, 0  ,0 ,0)
+func main() dr(5)
